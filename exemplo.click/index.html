@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click</title>
+<style>
+    body{
+        background-color: black;
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+}
+.playfair-display{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+button{
+    font-size: 27px;
+    text-align: center;
+    margin: 20px 60px;
+}
+</style>
+</head>
+<body>
+    <i><h1 class="playfair-display">Teste</h1></i>
+    <p class="playfair-display">Fazendo um js com click</p>
+    <button id="btnTeste" type="button">Teste</button>
+
+    <script>
+        //window é o objeto que representa o browser e manipulação dele
+        //o document é o html acima
+        
+        const btnTeste = document.getElementById("btnTeste")
+        //buscar um elemento pelo id
+        btnTeste.addEventListener("click", function() {
+            console.log("Clicou no botão")
+        })   
+    </script>
+    
+</body>
+</html>

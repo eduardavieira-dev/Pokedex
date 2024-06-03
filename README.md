@@ -1,5 +1,5 @@
 # Pokedex - Projeto DIO
-<img src="../Pokedex/project-img.png" alt="imagem do site Pokedex">
+<img src="project-img.png" alt="imagem do site Pokedex">
 
 Bem-vindo ao projeto **Pokedex**, desenvolvido durante o curso na Digital Innovation One (DIO). Este projeto tem como objetivo aprofundar os conhecimentos práticos de JavaScript, além de integrar HTML e CSS para a criação de uma interface web interativa. Utilizamos a API de Pokémon para gerar uma lista dinâmica de Pokémon, cujas informações são manipuladas e exibidas com JavaScript.
 
